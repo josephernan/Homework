@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		145EE57C619C37ED37B66D4F /* Pods_Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C6C4A9FAD37F2CB741131 /* Pods_Homework.framework */; };
+		847617131FEB489200DC2B36 /* icon-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 847617111FEB489200DC2B36 /* icon-password.png */; };
+		847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 847617151FEB49BA00DC2B36 /* homework-logo.jpeg */; };
+		847617181FEB4B2700DC2B36 /* icon-email.png in Resources */ = {isa = PBXBuildFile; fileRef = 847617171FEB4B2700DC2B36 /* icon-email.png */; };
+		8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847617191FEB532C00DC2B36 /* SignUpViewController.swift */; };
 		847ACEB51FEAE11300C9DD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */; };
-		847ACEB71FEAE11300C9DD8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847ACEB61FEAE11300C9DD8F /* ViewController.swift */; };
+		847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847ACEB61FEAE11300C9DD8F /* MainViewController.swift */; };
 		847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEB81FEAE11300C9DD8F /* Main.storyboard */; };
 		847ACEBC1FEAE11300C9DD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */; };
 		847ACEBF1FEAE11300C9DD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEBD1FEAE11300C9DD8F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847617111FEB489200DC2B36 /* icon-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-password.png"; sourceTree = "<group>"; };
+		847617151FEB49BA00DC2B36 /* homework-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homework-logo.jpeg"; sourceTree = "<group>"; };
+		847617171FEB4B2700DC2B36 /* icon-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-email.png"; sourceTree = "<group>"; };
+		847617191FEB532C00DC2B36 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		847ACEB11FEAE11300C9DD8F /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847ACEB61FEAE11300C9DD8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847ACEB61FEAE11300C9DD8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		847ACEB91FEAE11300C9DD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847ACEBE1FEAE11300C9DD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +66,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8476170C1FEB468F00DC2B36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847617151FEB49BA00DC2B36 /* homework-logo.jpeg */,
+				847617111FEB489200DC2B36 /* icon-password.png */,
+				847617171FEB4B2700DC2B36 /* icon-email.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		847ACEA81FEAE11200C9DD8F = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +97,15 @@
 		847ACEB31FEAE11300C9DD8F /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				8476170C1FEB468F00DC2B36 /* Resources */,
 				847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */,
-				847ACEB61FEAE11300C9DD8F /* ViewController.swift */,
+				847ACEB61FEAE11300C9DD8F /* MainViewController.swift */,
 				847ACEB81FEAE11300C9DD8F /* Main.storyboard */,
 				847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */,
 				847ACEBD1FEAE11300C9DD8F /* LaunchScreen.storyboard */,
 				847ACEC01FEAE11300C9DD8F /* Info.plist */,
 				847ACEC61FEAE1B400C9DD8F /* GoogleService-Info.plist */,
+				847617191FEB532C00DC2B36 /* SignUpViewController.swift */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -153,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				847ACEBF1FEAE11300C9DD8F /* LaunchScreen.storyboard in Resources */,
+				847617131FEB489200DC2B36 /* icon-password.png in Resources */,
 				847ACEBC1FEAE11300C9DD8F /* Assets.xcassets in Resources */,
+				847617181FEB4B2700DC2B36 /* icon-email.png in Resources */,
 				847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */,
+				847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847ACEB71FEAE11300C9DD8F /* ViewController.swift in Sources */,
+				8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */,
+				847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */,
 				847ACEB51FEAE11300C9DD8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
