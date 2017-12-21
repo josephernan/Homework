@@ -28,7 +28,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-email.png" translatesAutoresizingMaskIntoConstraints="NO" id="6sl-xN-ohm">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="6sl-xN-ohm">
                                         <rect key="frame" x="5" y="5" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -51,7 +51,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-password.png" translatesAutoresizingMaskIntoConstraints="NO" id="upk-KW-OGm">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="upk-KW-OGm">
                                         <rect key="frame" x="5" y="5" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="1232.8" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Upload View Controller-->
         <scene sceneID="D4U-tb-XNp">
             <objects>
-                <viewController id="fII-q7-FbE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UploadVC" id="fII-q7-FbE" customClass="UploadViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Erh-U8-ZoU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,10 +228,10 @@
             </objects>
             <point key="canvasLocation" x="1977" y="1582"/>
         </scene>
-        <!--View Controller-->
+        <!--Homework View Controller-->
         <scene sceneID="oPk-10-Lar">
             <objects>
-                <viewController id="VZC-U4-rH0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeworkVC" id="VZC-U4-rH0" customClass="HomeworkViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uXD-Pi-u4w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,12 +242,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Lb-7S-8hD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1233" y="1582"/>
+            <point key="canvasLocation" x="2700" y="1582"/>
         </scene>
-        <!--View Controller-->
+        <!--Student Info View Controller-->
         <scene sceneID="PI4-wB-By6">
             <objects>
-                <viewController id="U7R-ax-Rxc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StudentInfoVC" id="U7R-ax-Rxc" customClass="StudentInfoViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YaI-pd-Jde">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -258,12 +258,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DvJ-09-lHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2729" y="1582"/>
+            <point key="canvasLocation" x="1260" y="1582"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="399-gQ-KHp">
             <objects>
                 <tabBarController id="hMm-QN-ZJS" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mfH-oG-WZu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -297,14 +298,13 @@
             </objects>
             <point key="canvasLocation" x="-327" y="134"/>
         </scene>
-        <!--Item 1-->
+        <!--Student Info-->
         <scene sceneID="YT2-Tc-IoI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vx7-0E-Krx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="aDA-WU-pun"/>
+                    <tabBarItem key="tabBarItem" title="Student Info" image="Image 4.png" id="aDA-WU-pun"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="igO-is-OGQ">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -314,16 +314,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DVT-g6-K7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2730" y="878"/>
+            <point key="canvasLocation" x="1260" y="878"/>
         </scene>
-        <!--Item 2-->
+        <!--Upload-->
         <scene sceneID="xr4-2T-SCP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hng-G9-sRe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="flR-Mf-rTo"/>
+                    <tabBarItem key="tabBarItem" title="Upload" image="Image 5.png" id="flR-Mf-rTo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SLx-dR-MFF">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -335,14 +334,13 @@
             </objects>
             <point key="canvasLocation" x="1977" y="879"/>
         </scene>
-        <!--Item-->
+        <!--Homework-->
         <scene sceneID="Tg5-pJ-yAQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hv9-3b-t3U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="siK-s0-E4P"/>
+                    <tabBarItem key="tabBarItem" title="Homework" image="Image 6.png" id="siK-s0-E4P"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BIw-ec-Qij">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -352,12 +350,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlr-v5-Jde" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1233" y="880"/>
+            <point key="canvasLocation" x="2700" y="878"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Image 1.png" width="50" height="50"/>
+        <image name="Image 2.png" width="50" height="50"/>
+        <image name="Image 4.png" width="30" height="30"/>
+        <image name="Image 5.png" width="30" height="30"/>
+        <image name="Image 6.png" width="30" height="30"/>
         <image name="homework-logo.jpeg" width="261" height="193"/>
-        <image name="icon-email.png" width="50" height="50"/>
-        <image name="icon-password.png" width="50" height="50"/>
     </resources>
 </document>
