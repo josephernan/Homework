@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		145EE57C619C37ED37B66D4F /* Pods_Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C6C4A9FAD37F2CB741131 /* Pods_Homework.framework */; };
+		845388871FEB9A6F00782ED5 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845388881FEB9A6F00782ED5 /* IQKeyboardManagerSwift.framework */; };
 		847617131FEB489200DC2B36 /* icon-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 847617111FEB489200DC2B36 /* icon-password.png */; };
 		847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 847617151FEB49BA00DC2B36 /* homework-logo.jpeg */; };
 		847617181FEB4B2700DC2B36 /* icon-email.png in Resources */ = {isa = PBXBuildFile; fileRef = 847617171FEB4B2700DC2B36 /* icon-email.png */; };
 		8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847617191FEB532C00DC2B36 /* SignUpViewController.swift */; };
+		847617201FEB6F5C00DC2B36 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */; };
 		847ACEB51FEAE11300C9DD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */; };
 		847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847ACEB61FEAE11300C9DD8F /* MainViewController.swift */; };
 		847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEB81FEAE11300C9DD8F /* Main.storyboard */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845388881FEB9A6F00782ED5 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847617111FEB489200DC2B36 /* icon-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-password.png"; sourceTree = "<group>"; };
 		847617151FEB49BA00DC2B36 /* homework-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homework-logo.jpeg"; sourceTree = "<group>"; };
 		847617171FEB4B2700DC2B36 /* icon-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-email.png"; sourceTree = "<group>"; };
 		847617191FEB532C00DC2B36 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
 		847ACEB11FEAE11300C9DD8F /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847ACEB61FEAE11300C9DD8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845388871FEB9A6F00782ED5 /* IQKeyboardManagerSwift.framework in Frameworks */,
 				145EE57C619C37ED37B66D4F /* Pods_Homework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +57,7 @@
 		1A03B7D1598AA139D6FF1F33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				845388881FEB9A6F00782ED5 /* IQKeyboardManagerSwift.framework */,
 				CE8C6C4A9FAD37F2CB741131 /* Pods_Homework.framework */,
 			);
 			name = Frameworks;
@@ -106,6 +112,7 @@
 				847ACEC01FEAE11300C9DD8F /* Info.plist */,
 				847ACEC61FEAE1B400C9DD8F /* GoogleService-Info.plist */,
 				847617191FEB532C00DC2B36 /* SignUpViewController.swift */,
+				8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Homework/Pods-Homework-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -200,6 +208,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -250,6 +259,7 @@
 			files = (
 				8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */,
 				847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */,
+				847617201FEB6F5C00DC2B36 /* CheckboxButton.swift in Sources */,
 				847ACEB51FEAE11300C9DD8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
