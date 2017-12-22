@@ -48,8 +48,8 @@ class MainViewController: UIViewController, UITextFieldDelegate {
                         self.loading.isHidden = true
                         return
                     } else {
-                        let vc = self.storyboard?.instantiateViewController(withIdentifier: "StudentInfoVC") as? StudentInfoViewController
-                        self.navigationController?.pushViewController(vc!, animated: false)
+                        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController
+                        self.present(vc!, animated: false)
                         self.loading.stopAnimating()
                         self.loading.isHidden = true
                         print ("Email verified. Signing in...")

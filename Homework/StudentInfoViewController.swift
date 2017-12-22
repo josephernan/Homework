@@ -12,7 +12,9 @@ class StudentInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Student Information"
+        self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
+        
         // Do any additional setup after loading the view.
     }
 

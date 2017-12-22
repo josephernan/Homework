@@ -29,6 +29,28 @@
 		847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEB81FEAE11300C9DD8F /* Main.storyboard */; };
 		847ACEBC1FEAE11300C9DD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */; };
 		847ACEBF1FEAE11300C9DD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847ACEBD1FEAE11300C9DD8F /* LaunchScreen.storyboard */; };
+		84D3B66B1FEC056700522776 /* TGActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6561FEC056700522776 /* TGActionSheet.swift */; };
+		84D3B66C1FEC056700522776 /* TGAlbumPhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6571FEC056700522776 /* TGAlbumPhotoPreviewVC.swift */; };
+		84D3B66D1FEC056700522776 /* TGAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6581FEC056700522776 /* TGAnimationButton.swift */; };
+		84D3B66E1FEC056700522776 /* TGBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6591FEC056700522776 /* TGBottomBar.swift */; };
+		84D3B66F1FEC056700522776 /* TGCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65A1FEC056700522776 /* TGCameraVC.swift */; };
+		84D3B6701FEC056700522776 /* TGCameraVCForiOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65B1FEC056700522776 /* TGCameraVCForiOS8.swift */; };
+		84D3B6711FEC056700522776 /* TGFetchM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65C1FEC056700522776 /* TGFetchM.swift */; };
+		84D3B6721FEC056700522776 /* TGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65D1FEC056700522776 /* TGImage.swift */; };
+		84D3B6731FEC056700522776 /* TGPhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65E1FEC056700522776 /* TGPhotoCollectionVC.swift */; };
+		84D3B6741FEC056700522776 /* TGPhotoFetchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B65F1FEC056700522776 /* TGPhotoFetchOptions.swift */; };
+		84D3B6751FEC056700522776 /* TGPhotoImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6601FEC056700522776 /* TGPhotoImageManager.swift */; };
+		84D3B6761FEC056700522776 /* TGPhotoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6611FEC056700522776 /* TGPhotoListVC.swift */; };
+		84D3B6771FEC056700522776 /* TGPhotoM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6621FEC056700522776 /* TGPhotoM.swift */; };
+		84D3B6781FEC056700522776 /* TGPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84D3B6631FEC056700522776 /* TGPhotoPicker.bundle */; };
+		84D3B6791FEC056700522776 /* TGPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6641FEC056700522776 /* TGPhotoPicker.swift */; };
+		84D3B67A1FEC056700522776 /* TGPhotoPickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6651FEC056700522776 /* TGPhotoPickerConfig.swift */; };
+		84D3B67B1FEC056700522776 /* TGPhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6661FEC056700522776 /* TGPhotoPickerManager.swift */; };
+		84D3B67C1FEC056700522776 /* TGPhotoPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6671FEC056700522776 /* TGPhotoPickerVC.swift */; };
+		84D3B67D1FEC056700522776 /* TGPhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6681FEC056700522776 /* TGPhotoPreviewCell.swift */; };
+		84D3B67E1FEC056700522776 /* TGPhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6691FEC056700522776 /* TGPhotoPreviewVC.swift */; };
+		84D3B67F1FEC056700522776 /* TGTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B66A1FEC056700522776 /* TGTopBar.swift */; };
+		84F1C9BB1FEBF26F00B71CF0 /* icon-drop-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +77,28 @@
 		847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847ACEBE1FEAE11300C9DD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847ACEC01FEAE11300C9DD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D3B6561FEC056700522776 /* TGActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGActionSheet.swift; sourceTree = "<group>"; };
+		84D3B6571FEC056700522776 /* TGAlbumPhotoPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGAlbumPhotoPreviewVC.swift; sourceTree = "<group>"; };
+		84D3B6581FEC056700522776 /* TGAnimationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGAnimationButton.swift; sourceTree = "<group>"; };
+		84D3B6591FEC056700522776 /* TGBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBottomBar.swift; sourceTree = "<group>"; };
+		84D3B65A1FEC056700522776 /* TGCameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCameraVC.swift; sourceTree = "<group>"; };
+		84D3B65B1FEC056700522776 /* TGCameraVCForiOS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCameraVCForiOS8.swift; sourceTree = "<group>"; };
+		84D3B65C1FEC056700522776 /* TGFetchM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFetchM.swift; sourceTree = "<group>"; };
+		84D3B65D1FEC056700522776 /* TGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGImage.swift; sourceTree = "<group>"; };
+		84D3B65E1FEC056700522776 /* TGPhotoCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoCollectionVC.swift; sourceTree = "<group>"; };
+		84D3B65F1FEC056700522776 /* TGPhotoFetchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoFetchOptions.swift; sourceTree = "<group>"; };
+		84D3B6601FEC056700522776 /* TGPhotoImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoImageManager.swift; sourceTree = "<group>"; };
+		84D3B6611FEC056700522776 /* TGPhotoListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoListVC.swift; sourceTree = "<group>"; };
+		84D3B6621FEC056700522776 /* TGPhotoM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoM.swift; sourceTree = "<group>"; };
+		84D3B6631FEC056700522776 /* TGPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TGPhotoPicker.bundle; sourceTree = "<group>"; };
+		84D3B6641FEC056700522776 /* TGPhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPicker.swift; sourceTree = "<group>"; };
+		84D3B6651FEC056700522776 /* TGPhotoPickerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPickerConfig.swift; sourceTree = "<group>"; };
+		84D3B6661FEC056700522776 /* TGPhotoPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPickerManager.swift; sourceTree = "<group>"; };
+		84D3B6671FEC056700522776 /* TGPhotoPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPickerVC.swift; sourceTree = "<group>"; };
+		84D3B6681FEC056700522776 /* TGPhotoPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPreviewCell.swift; sourceTree = "<group>"; };
+		84D3B6691FEC056700522776 /* TGPhotoPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPreviewVC.swift; sourceTree = "<group>"; };
+		84D3B66A1FEC056700522776 /* TGTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTopBar.swift; sourceTree = "<group>"; };
+		84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-drop-down.png"; sourceTree = "<group>"; };
 		937C1E82D860E76702D5FD6A /* Pods-Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.release.xcconfig"; sourceTree = "<group>"; };
 		CE8C6C4A9FAD37F2CB741131 /* Pods_Homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D428329AF2ADD6B81D70B476 /* Pods-Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +138,7 @@
 		8476170C1FEB468F00DC2B36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */,
 				8453888F1FEBAEC900782ED5 /* Image 1.png */,
 				8453888A1FEBAEC300782ED5 /* Image 2.png */,
 				8453888B1FEBAEC400782ED5 /* Image 3.png */,
@@ -131,6 +176,7 @@
 				8476170C1FEB468F00DC2B36 /* Resources */,
 				847ACEB41FEAE11300C9DD8F /* AppDelegate.swift */,
 				847ACEB61FEAE11300C9DD8F /* MainViewController.swift */,
+				84D3B6551FEC056700522776 /* TGPhotoPicker */,
 				847ACEB81FEAE11300C9DD8F /* Main.storyboard */,
 				847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */,
 				847ACEBD1FEAE11300C9DD8F /* LaunchScreen.storyboard */,
@@ -143,6 +189,34 @@
 				8453889D1FEBBE1600782ED5 /* HomeworkViewController.swift */,
 			);
 			path = Homework;
+			sourceTree = "<group>";
+		};
+		84D3B6551FEC056700522776 /* TGPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				84D3B6561FEC056700522776 /* TGActionSheet.swift */,
+				84D3B6571FEC056700522776 /* TGAlbumPhotoPreviewVC.swift */,
+				84D3B6581FEC056700522776 /* TGAnimationButton.swift */,
+				84D3B6591FEC056700522776 /* TGBottomBar.swift */,
+				84D3B65A1FEC056700522776 /* TGCameraVC.swift */,
+				84D3B65B1FEC056700522776 /* TGCameraVCForiOS8.swift */,
+				84D3B65C1FEC056700522776 /* TGFetchM.swift */,
+				84D3B65D1FEC056700522776 /* TGImage.swift */,
+				84D3B65E1FEC056700522776 /* TGPhotoCollectionVC.swift */,
+				84D3B65F1FEC056700522776 /* TGPhotoFetchOptions.swift */,
+				84D3B6601FEC056700522776 /* TGPhotoImageManager.swift */,
+				84D3B6611FEC056700522776 /* TGPhotoListVC.swift */,
+				84D3B6621FEC056700522776 /* TGPhotoM.swift */,
+				84D3B6631FEC056700522776 /* TGPhotoPicker.bundle */,
+				84D3B6641FEC056700522776 /* TGPhotoPicker.swift */,
+				84D3B6651FEC056700522776 /* TGPhotoPickerConfig.swift */,
+				84D3B6661FEC056700522776 /* TGPhotoPickerManager.swift */,
+				84D3B6671FEC056700522776 /* TGPhotoPickerVC.swift */,
+				84D3B6681FEC056700522776 /* TGPhotoPreviewCell.swift */,
+				84D3B6691FEC056700522776 /* TGPhotoPreviewVC.swift */,
+				84D3B66A1FEC056700522776 /* TGTopBar.swift */,
+			);
+			path = TGPhotoPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +284,7 @@
 				845388A01FEBBFE600782ED5 /* GoogleService-Info.plist in Resources */,
 				845388931FEBAECC00782ED5 /* Image 3.png in Resources */,
 				845388951FEBAECC00782ED5 /* Image 6.png in Resources */,
+				84F1C9BB1FEBF26F00B71CF0 /* icon-drop-down.png in Resources */,
 				845388911FEBAECC00782ED5 /* Image 7.png in Resources */,
 				845388961FEBAECC00782ED5 /* Image 4.png in Resources */,
 				845388921FEBAECC00782ED5 /* Image 2.png in Resources */,
@@ -217,6 +292,7 @@
 				845388971FEBAECC00782ED5 /* Image 1.png in Resources */,
 				847ACEBC1FEAE11300C9DD8F /* Assets.xcassets in Resources */,
 				847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */,
+				84D3B6781FEC056700522776 /* TGPhotoPicker.bundle in Resources */,
 				845388941FEBAECC00782ED5 /* Image 5.png in Resources */,
 				845388981FEBAECC00782ED5 /* Image 9.png in Resources */,
 				847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */,
@@ -292,12 +368,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D3B6701FEC056700522776 /* TGCameraVCForiOS8.swift in Sources */,
+				84D3B66B1FEC056700522776 /* TGActionSheet.swift in Sources */,
 				8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */,
+				84D3B67B1FEC056700522776 /* TGPhotoPickerManager.swift in Sources */,
+				84D3B67F1FEC056700522776 /* TGTopBar.swift in Sources */,
 				8453889C1FEBBDFA00782ED5 /* UploadViewController.swift in Sources */,
+				84D3B67E1FEC056700522776 /* TGPhotoPreviewVC.swift in Sources */,
 				8453889E1FEBBE1600782ED5 /* HomeworkViewController.swift in Sources */,
+				84D3B66E1FEC056700522776 /* TGBottomBar.swift in Sources */,
+				84D3B66C1FEC056700522776 /* TGAlbumPhotoPreviewVC.swift in Sources */,
+				84D3B6771FEC056700522776 /* TGPhotoM.swift in Sources */,
+				84D3B6751FEC056700522776 /* TGPhotoImageManager.swift in Sources */,
+				84D3B66D1FEC056700522776 /* TGAnimationButton.swift in Sources */,
 				847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */,
+				84D3B67C1FEC056700522776 /* TGPhotoPickerVC.swift in Sources */,
+				84D3B67D1FEC056700522776 /* TGPhotoPreviewCell.swift in Sources */,
+				84D3B6721FEC056700522776 /* TGImage.swift in Sources */,
+				84D3B6791FEC056700522776 /* TGPhotoPicker.swift in Sources */,
+				84D3B67A1FEC056700522776 /* TGPhotoPickerConfig.swift in Sources */,
+				84D3B6741FEC056700522776 /* TGPhotoFetchOptions.swift in Sources */,
+				84D3B6711FEC056700522776 /* TGFetchM.swift in Sources */,
+				84D3B66F1FEC056700522776 /* TGCameraVC.swift in Sources */,
 				8453889A1FEBBDDF00782ED5 /* StudentInfoViewController.swift in Sources */,
 				847617201FEB6F5C00DC2B36 /* CheckboxButton.swift in Sources */,
+				84D3B6761FEC056700522776 /* TGPhotoListVC.swift in Sources */,
+				84D3B6731FEC056700522776 /* TGPhotoCollectionVC.swift in Sources */,
 				847ACEB51FEAE11300C9DD8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

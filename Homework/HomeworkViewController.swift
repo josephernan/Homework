@@ -12,7 +12,9 @@ class HomeworkViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Homework"
+        self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
+        
         // Do any additional setup after loading the view.
     }
 

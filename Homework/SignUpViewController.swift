@@ -9,10 +9,11 @@
 import UIKit
 import FirebaseAuth
 
-class SignUpViewController: UIViewController, UITextFieldDelegate {
-
+class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+    
     @IBOutlet var studentNameTxt: UITextField!
     @IBOutlet var gradeTxt: UITextField!
+    @IBOutlet var selectGrade: UIPickerView!
     @IBOutlet var schoolNameTxt: UITextField!
     @IBOutlet var emailTxt: UITextField!
     @IBOutlet var passwordTxt: UITextField!
@@ -20,6 +21,8 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var submitBtn: UIButton!
     @IBOutlet var checkBox: CheckboxButton!
     @IBOutlet var loading: UIActivityIndicatorView!
+    
+    var grade = ["P.1", "P.2", "P.3", "P.4", "P.5", "P.6"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +36,29 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         self.navigationItem.title = "New Account"
         self.loading.isHidden = true
         self.submitBtn.isEnabled = false
+        self.selectGrade.isHidden = true
         
+    }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return self.grade.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return self.grade[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        self.gradeTxt.text = self.grade[row]
+        
+    }
+    
+    @IBAction func gradeClickBtn(_ sender: Any) {
+        self.selectGrade.isHidden = false
     }
     
     @IBAction func goSignUp(_ sender: Any) {
@@ -138,6 +163,14 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         return emailTest.evaluate(with: emailstr)
     }
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if textField == gradeTxt {
+            self.selectGrade.isHidden = false
+        } else {
+            self.selectGrade.isHidden = true
+        }
+    }
+//    self.selectGrade.isHidden = true
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if (textField == studentNameTxt) {
             gradeTxt.becomeFirstResponder()

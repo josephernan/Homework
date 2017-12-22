@@ -10,9 +10,14 @@ import UIKit
 
 class UploadViewController: UIViewController {
 
+    lazy var picker: TGPhotoPicker = TGPhotoPicker(self, frame: CGRect(x: 6, y: 70, width: UIScreen.main.bounds.width - 12, height: UIScreen.main.bounds.height - uploadBtn.frame.size.height - (self.tabBarController?.tabBar.frame.size.height)! - 80 ))
+    
+    @IBOutlet var uploadBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Upload"
+        self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
+        self.view.addSubview(picker)
         // Do any additional setup after loading the view.
     }
 
