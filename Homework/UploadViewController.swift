@@ -21,12 +21,16 @@ class UploadViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func uploadClick(_ sender: Any) {
+        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default) { (_) in
+            self.tabBarController?.selectedIndex = 2
+        })
+        let contentVC = CustomAlertViewController()
+        alert.setValue(contentVC, forKeyPath: "contentViewController")
+        self.present(alert, animated: false)
     }
     
-
     /*
     // MARK: - Navigation
 

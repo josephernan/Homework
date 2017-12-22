@@ -10,12 +10,20 @@ import UIKit
 
 class StudentInfoViewController: UIViewController {
 
+    @IBOutlet var studentName: UILabel!
+    @IBOutlet var schoolName: UILabel!
+    @IBOutlet var email: UILabel!
+    @IBOutlet var grade: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Student Information"
         self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
         
-        // Do any additional setup after loading the view.
+        self.studentName.text = "Jack"
+        self.schoolName.text = "Dandong High School"
+        self.email.text = "polaris890728@gmail.com"
+        self.grade.text = "P.4"
     }
 
     override func didReceiveMemoryWarning() {

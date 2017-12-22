@@ -1,20 +1,21 @@
 //
-//  HomeworkViewController.swift
+//  TeacherInfoViewController.swift
 //  Homework
 //
-//  Created by POLARIS on 12/21/17.
+//  Created by POLARIS on 12/22/17.
 //  Copyright © 2017 Xiaoming Yu. All rights reserved.
 //
 
 import UIKit
 
-class HomeworkViewController: UITableViewController {
+class TeacherInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Homework"
+        self.navigationItem.title = "Teacher Information"
         self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
         
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +23,7 @@ class HomeworkViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+
     /*
     // MARK: - Navigation
 
