@@ -19,6 +19,7 @@ class UploadViewController: UIViewController {
         self.view.backgroundColor = UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0)
         self.view.addSubview(picker)
         // Do any additional setup after loading the view.
+        
     }
 
     @IBAction func uploadClick(_ sender: Any) {

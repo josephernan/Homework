@@ -180,15 +180,15 @@ class TGBottomBar: UIView {
 
             attributeString.addAttribute(NSAttributedStringKey.font,
                                          value: UIFont.boldSystemFont(ofSize: TGPhotoPickerConfig.shared.fontSize+3),
-                                         range: NSMakeRange(0,"\(number) ".characters.count))
+                                         range: NSMakeRange(0,"\(number) ".count))
             
             attributeString.addAttribute(NSAttributedStringKey.font,
                                          value: UIFont.boldSystemFont(ofSize: TGPhotoPickerConfig.shared.fontSize),
-                                         range: NSMakeRange("\(number) ".characters.count,1))
+                                         range: NSMakeRange("\(number) ".count,1))
             
             attributeString.addAttribute(NSAttributedStringKey.font,
                                          value: UIFont.systemFont(ofSize: TGPhotoPickerConfig.shared.fontSize-3),
-                                         range: NSMakeRange("\(number) / ".characters.count,"\(TGPhotoPickerConfig.shared.maxImageCount)".characters.count))
+                                         range: NSMakeRange("\(number) / ".count,"\(TGPhotoPickerConfig.shared.maxImageCount)".count))
             indicatorLabel.attributedText = attributeString
         }else{
             let addStr = number > 0 ? "("+String(number)+")" : ""

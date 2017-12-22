@@ -16,11 +16,10 @@
 		845388951FEBAECC00782ED5 /* Image 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453888D1FEBAEC600782ED5 /* Image 6.png */; };
 		845388961FEBAECC00782ED5 /* Image 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453888E1FEBAEC700782ED5 /* Image 4.png */; };
 		845388971FEBAECC00782ED5 /* Image 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453888F1FEBAEC900782ED5 /* Image 1.png */; };
-		845388981FEBAECC00782ED5 /* Image 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 845388901FEBAECC00782ED5 /* Image 9.png */; };
+		845388981FEBAECC00782ED5 /* Image9.png in Resources */ = {isa = PBXBuildFile; fileRef = 845388901FEBAECC00782ED5 /* Image9.png */; };
 		8453889A1FEBBDDF00782ED5 /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845388991FEBBDDF00782ED5 /* StudentInfoViewController.swift */; };
 		8453889C1FEBBDFA00782ED5 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453889B1FEBBDFA00782ED5 /* UploadViewController.swift */; };
-		8453889E1FEBBE1600782ED5 /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453889D1FEBBE1600782ED5 /* HomeworkViewController.swift */; };
-		845388A01FEBBFE600782ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8453889F1FEBBFE600782ED5 /* GoogleService-Info.plist */; };
+		8453889E1FEBBE1600782ED5 /* HomeworkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453889D1FEBBE1600782ED5 /* HomeworkListViewController.swift */; };
 		847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 847617151FEB49BA00DC2B36 /* homework-logo.jpeg */; };
 		8476171A1FEB532C00DC2B36 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847617191FEB532C00DC2B36 /* SignUpViewController.swift */; };
 		847617201FEB6F5C00DC2B36 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */; };
@@ -50,7 +49,17 @@
 		84D3B67D1FEC056700522776 /* TGPhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6681FEC056700522776 /* TGPhotoPreviewCell.swift */; };
 		84D3B67E1FEC056700522776 /* TGPhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B6691FEC056700522776 /* TGPhotoPreviewVC.swift */; };
 		84D3B67F1FEC056700522776 /* TGTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3B66A1FEC056700522776 /* TGTopBar.swift */; };
+		84ED88D91FECFA6D000C4F0A /* HomeworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED88D81FECFA6D000C4F0A /* HomeworkCell.swift */; };
+		84ED88DB1FECFCEB000C4F0A /* HomeworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED88DA1FECFCEB000C4F0A /* HomeworkData.swift */; };
+		84ED88E01FED1EC9000C4F0A /* hkaddress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84ED88DD1FED1EC9000C4F0A /* hkaddress.txt */; };
+		84ED88E21FED1EC9000C4F0A /* hkregion.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84ED88DF1FED1EC9000C4F0A /* hkregion.txt */; };
+		84ED88E41FED348A000C4F0A /* hkname.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84ED88E31FED348A000C4F0A /* hkname.txt */; };
+		84ED88E61FED403D000C4F0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84ED88E51FED403D000C4F0A /* GoogleService-Info.plist */; };
+		84ED88E81FED4461000C4F0A /* HomeworkCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED88E71FED4461000C4F0A /* HomeworkCheckViewController.swift */; };
 		84F1C9BB1FEBF26F00B71CF0 /* icon-drop-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */; };
+		84FC29401FECA1F200823914 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC293F1FECA1F200823914 /* CustomAlertViewController.swift */; };
+		84FC29421FECC00800823914 /* TeacherInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC29411FECC00800823914 /* TeacherInfoViewController.swift */; };
+		84FC29441FECC03E00823914 /* TCHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC29431FECC03E00823914 /* TCHomeworkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,11 +71,10 @@
 		8453888D1FEBAEC600782ED5 /* Image 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 6.png"; sourceTree = "<group>"; };
 		8453888E1FEBAEC700782ED5 /* Image 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 4.png"; sourceTree = "<group>"; };
 		8453888F1FEBAEC900782ED5 /* Image 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 1.png"; sourceTree = "<group>"; };
-		845388901FEBAECC00782ED5 /* Image 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 9.png"; sourceTree = "<group>"; };
+		845388901FEBAECC00782ED5 /* Image9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image9.png; sourceTree = "<group>"; };
 		845388991FEBBDDF00782ED5 /* StudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
 		8453889B1FEBBDFA00782ED5 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
-		8453889D1FEBBE1600782ED5 /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
-		8453889F1FEBBFE600782ED5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8453889D1FEBBE1600782ED5 /* HomeworkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkListViewController.swift; sourceTree = "<group>"; };
 		847617151FEB49BA00DC2B36 /* homework-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homework-logo.jpeg"; sourceTree = "<group>"; };
 		847617191FEB532C00DC2B36 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
@@ -98,7 +106,17 @@
 		84D3B6681FEC056700522776 /* TGPhotoPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPreviewCell.swift; sourceTree = "<group>"; };
 		84D3B6691FEC056700522776 /* TGPhotoPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPhotoPreviewVC.swift; sourceTree = "<group>"; };
 		84D3B66A1FEC056700522776 /* TGTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTopBar.swift; sourceTree = "<group>"; };
+		84ED88D81FECFA6D000C4F0A /* HomeworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkCell.swift; sourceTree = "<group>"; };
+		84ED88DA1FECFCEB000C4F0A /* HomeworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkData.swift; sourceTree = "<group>"; };
+		84ED88DD1FED1EC9000C4F0A /* hkaddress.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hkaddress.txt; sourceTree = "<group>"; };
+		84ED88DF1FED1EC9000C4F0A /* hkregion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hkregion.txt; sourceTree = "<group>"; };
+		84ED88E31FED348A000C4F0A /* hkname.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hkname.txt; sourceTree = "<group>"; };
+		84ED88E51FED403D000C4F0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84ED88E71FED4461000C4F0A /* HomeworkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkCheckViewController.swift; sourceTree = "<group>"; };
 		84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-drop-down.png"; sourceTree = "<group>"; };
+		84FC293F1FECA1F200823914 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		84FC29411FECC00800823914 /* TeacherInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherInfoViewController.swift; sourceTree = "<group>"; };
+		84FC29431FECC03E00823914 /* TCHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCHomeworkViewController.swift; sourceTree = "<group>"; };
 		937C1E82D860E76702D5FD6A /* Pods-Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.release.xcconfig"; sourceTree = "<group>"; };
 		CE8C6C4A9FAD37F2CB741131 /* Pods_Homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D428329AF2ADD6B81D70B476 /* Pods-Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +156,7 @@
 		8476170C1FEB468F00DC2B36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84ED88DC1FED1EC9000C4F0A /* school_name */,
 				84F1C9BA1FEBF26E00B71CF0 /* icon-drop-down.png */,
 				8453888F1FEBAEC900782ED5 /* Image 1.png */,
 				8453888A1FEBAEC300782ED5 /* Image 2.png */,
@@ -146,7 +165,7 @@
 				8453888C1FEBAEC400782ED5 /* Image 5.png */,
 				8453888D1FEBAEC600782ED5 /* Image 6.png */,
 				845388891FEBAEC000782ED5 /* Image 7.png */,
-				845388901FEBAECC00782ED5 /* Image 9.png */,
+				845388901FEBAECC00782ED5 /* Image9.png */,
 				847617151FEB49BA00DC2B36 /* homework-logo.jpeg */,
 			);
 			path = Resources;
@@ -181,12 +200,18 @@
 				847ACEBB1FEAE11300C9DD8F /* Assets.xcassets */,
 				847ACEBD1FEAE11300C9DD8F /* LaunchScreen.storyboard */,
 				847ACEC01FEAE11300C9DD8F /* Info.plist */,
-				8453889F1FEBBFE600782ED5 /* GoogleService-Info.plist */,
+				84ED88E51FED403D000C4F0A /* GoogleService-Info.plist */,
 				847617191FEB532C00DC2B36 /* SignUpViewController.swift */,
 				8476171F1FEB6F5C00DC2B36 /* CheckboxButton.swift */,
 				845388991FEBBDDF00782ED5 /* StudentInfoViewController.swift */,
 				8453889B1FEBBDFA00782ED5 /* UploadViewController.swift */,
-				8453889D1FEBBE1600782ED5 /* HomeworkViewController.swift */,
+				8453889D1FEBBE1600782ED5 /* HomeworkListViewController.swift */,
+				84FC293F1FECA1F200823914 /* CustomAlertViewController.swift */,
+				84FC29411FECC00800823914 /* TeacherInfoViewController.swift */,
+				84FC29431FECC03E00823914 /* TCHomeworkViewController.swift */,
+				84ED88D81FECFA6D000C4F0A /* HomeworkCell.swift */,
+				84ED88DA1FECFCEB000C4F0A /* HomeworkData.swift */,
+				84ED88E71FED4461000C4F0A /* HomeworkCheckViewController.swift */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -217,6 +242,16 @@
 				84D3B66A1FEC056700522776 /* TGTopBar.swift */,
 			);
 			path = TGPhotoPicker;
+			sourceTree = "<group>";
+		};
+		84ED88DC1FED1EC9000C4F0A /* school_name */ = {
+			isa = PBXGroup;
+			children = (
+				84ED88DD1FED1EC9000C4F0A /* hkaddress.txt */,
+				84ED88E31FED348A000C4F0A /* hkname.txt */,
+				84ED88DF1FED1EC9000C4F0A /* hkregion.txt */,
+			);
+			path = school_name;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +316,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845388A01FEBBFE600782ED5 /* GoogleService-Info.plist in Resources */,
 				845388931FEBAECC00782ED5 /* Image 3.png in Resources */,
 				845388951FEBAECC00782ED5 /* Image 6.png in Resources */,
 				84F1C9BB1FEBF26F00B71CF0 /* icon-drop-down.png in Resources */,
+				84ED88E01FED1EC9000C4F0A /* hkaddress.txt in Resources */,
 				845388911FEBAECC00782ED5 /* Image 7.png in Resources */,
 				845388961FEBAECC00782ED5 /* Image 4.png in Resources */,
 				845388921FEBAECC00782ED5 /* Image 2.png in Resources */,
@@ -292,9 +327,12 @@
 				845388971FEBAECC00782ED5 /* Image 1.png in Resources */,
 				847ACEBC1FEAE11300C9DD8F /* Assets.xcassets in Resources */,
 				847ACEBA1FEAE11300C9DD8F /* Main.storyboard in Resources */,
+				84ED88E61FED403D000C4F0A /* GoogleService-Info.plist in Resources */,
 				84D3B6781FEC056700522776 /* TGPhotoPicker.bundle in Resources */,
 				845388941FEBAECC00782ED5 /* Image 5.png in Resources */,
-				845388981FEBAECC00782ED5 /* Image 9.png in Resources */,
+				84ED88E41FED348A000C4F0A /* hkname.txt in Resources */,
+				84ED88E21FED1EC9000C4F0A /* hkregion.txt in Resources */,
+				845388981FEBAECC00782ED5 /* Image9.png in Resources */,
 				847617161FEB49BA00DC2B36 /* homework-logo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,17 +347,29 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Homework/Pods-Homework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -375,18 +425,24 @@
 				84D3B67F1FEC056700522776 /* TGTopBar.swift in Sources */,
 				8453889C1FEBBDFA00782ED5 /* UploadViewController.swift in Sources */,
 				84D3B67E1FEC056700522776 /* TGPhotoPreviewVC.swift in Sources */,
-				8453889E1FEBBE1600782ED5 /* HomeworkViewController.swift in Sources */,
+				8453889E1FEBBE1600782ED5 /* HomeworkListViewController.swift in Sources */,
 				84D3B66E1FEC056700522776 /* TGBottomBar.swift in Sources */,
 				84D3B66C1FEC056700522776 /* TGAlbumPhotoPreviewVC.swift in Sources */,
 				84D3B6771FEC056700522776 /* TGPhotoM.swift in Sources */,
 				84D3B6751FEC056700522776 /* TGPhotoImageManager.swift in Sources */,
+				84FC29401FECA1F200823914 /* CustomAlertViewController.swift in Sources */,
 				84D3B66D1FEC056700522776 /* TGAnimationButton.swift in Sources */,
+				84FC29421FECC00800823914 /* TeacherInfoViewController.swift in Sources */,
+				84ED88D91FECFA6D000C4F0A /* HomeworkCell.swift in Sources */,
 				847ACEB71FEAE11300C9DD8F /* MainViewController.swift in Sources */,
 				84D3B67C1FEC056700522776 /* TGPhotoPickerVC.swift in Sources */,
 				84D3B67D1FEC056700522776 /* TGPhotoPreviewCell.swift in Sources */,
+				84ED88DB1FECFCEB000C4F0A /* HomeworkData.swift in Sources */,
 				84D3B6721FEC056700522776 /* TGImage.swift in Sources */,
+				84FC29441FECC03E00823914 /* TCHomeworkViewController.swift in Sources */,
 				84D3B6791FEC056700522776 /* TGPhotoPicker.swift in Sources */,
 				84D3B67A1FEC056700522776 /* TGPhotoPickerConfig.swift in Sources */,
+				84ED88E81FED4461000C4F0A /* HomeworkCheckViewController.swift in Sources */,
 				84D3B6741FEC056700522776 /* TGPhotoFetchOptions.swift in Sources */,
 				84D3B6711FEC056700522776 /* TGFetchM.swift in Sources */,
 				84D3B66F1FEC056700522776 /* TGCameraVC.swift in Sources */,
@@ -533,8 +589,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U7GP23J9DD;
+				DEVELOPMENT_TEAM = J94JKTW4WR;
 				INFOPLIST_FILE = Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArthurTam.Homeworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,8 +606,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U7GP23J9DD;
+				DEVELOPMENT_TEAM = J94JKTW4WR;
 				INFOPLIST_FILE = Homework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArthurTam.Homeworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";

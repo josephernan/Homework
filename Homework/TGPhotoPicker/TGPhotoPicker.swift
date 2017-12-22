@@ -98,8 +98,6 @@ extension TGPhotoPicker : UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return tgphotos.count == config.maxImageCount ? tgphotos.count :  tgphotos.count + 1
-
-
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

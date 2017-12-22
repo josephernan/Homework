@@ -10,6 +10,7 @@ target 'Homework' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Storage'
+pod 'Firebase/Firestore'
 pod ‘Firebase/Auth’
 pod ‘FirebaseAuth’
 pod 'IQKeyboardManagerSwift'

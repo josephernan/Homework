@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>630496684916-5s6tvkpmoh4f6submr8ncpp0ctss3qs8.apps.googleusercontent.com</string>
+	<string>691558670512-cch3djlr1jf8me0knfsd8s1cmfnrbvl6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.630496684916-5s6tvkpmoh4f6submr8ncpp0ctss3qs8</string>
+	<string>com.googleusercontent.apps.691558670512-cch3djlr1jf8me0knfsd8s1cmfnrbvl6</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDO_QuvCyKqth6XZYc-9cclJN4eghM7fXs</string>
+	<string>AIzaSyAR9dmGhcwAf4BKrFP499HNHlAhfLjVY4s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>630496684916</string>
+	<string>691558670512</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.ArthurTam.Homeworks</string>
 	<key>PROJECT_ID</key>
-	<string>homework-c7df2</string>
+	<string>homework-23d2f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>homework-c7df2.appspot.com</string>
+	<string>homework-23d2f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:630496684916:ios:3a021be02f8bf740</string>
+	<string>1:691558670512:ios:3a021be02f8bf740</string>
 	<key>DATABASE_URL</key>
-	<string>https://homework-c7df2.firebaseio.com</string>
+	<string>https://homework-23d2f.firebaseio.com</string>
 </dict>
 </plist>
